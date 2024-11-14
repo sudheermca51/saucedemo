@@ -25,6 +25,11 @@ public class SauceDemoSanityTests extends BaseClass{
 
 	}
 	@Test
+	public void validateItemsinCart()
+	{
+		
+	}
+	@Test
 	public void deleteItemsFromCart()
 	{
 		
