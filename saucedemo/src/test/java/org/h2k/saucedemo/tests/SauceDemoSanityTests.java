@@ -32,8 +32,10 @@ public class SauceDemoSanityTests extends BaseClass{
 	@Test
 	public void deleteItemsFromCart()
 	{
+ 
 		LoginPage lPage = new LoginPage(driver);
 		System.out.println("In Delete Items From Cart");
+ 
 	}
 
 
