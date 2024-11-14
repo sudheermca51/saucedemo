@@ -32,7 +32,7 @@ public class SauceDemoSanityTests extends BaseClass{
 	@Test
 	public void deleteItemsFromCart()
 	{
-		
+		System.out.println("invoking the Delete Items");
 	}
 
 
