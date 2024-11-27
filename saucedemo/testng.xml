@@ -1,24 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite name="Suite">
+<suite name="Suite" verbose="5">
 	<test name="Test1">
-		<groups>
-			<run>
-				<include name="sanity" />
-			</run>
-		</groups>
 		<classes>
-			<class name="org.h2k.ecommerce.saucedemo.TestngEx1" />
+			<class name="org.h2k.saucedemo.tests.SauceDemoSanityTests" />
 		</classes>
 	</test> 
-	<test name="Test2">
-		<groups>
-			<run>
-				<include name="regression" />
-			</run>
-		</groups>
-		<classes>
-			<class name="org.h2k.ecommerce.saucedemo.TestngEx1" />
-		</classes>
-	</test> <!-- Test -->
 </suite> <!-- Suite -->
