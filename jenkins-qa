@@ -10,7 +10,7 @@ pipeline {
         }
          stage('Regression Test') {
             steps {
-                echo '#######Executing Regression Tests########################'
+                echo '######################Executing Regression Tests########################'
                 git branch: 'fix_test123', url: 'https://github.com/sudheermca51/saucedemo.git'
                 dir('saucedemo') 
                 {
