@@ -26,6 +26,10 @@ public class SauceDemoSanityTests extends BaseClass{
 		Assert.assertEquals(actual,expected);
 
 	}
+	
+	public void removeCart() {
+		
+	}
 //	@Test
 //	public void validateItemsinCart()
 //	{
